@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUPO OMEGA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a3daff;
+            color: #333;
+            text-align: center;
+            animation: fadeIn 2s ease-in;
+        }
+        header {
+            background-color: #0288d1;
+            padding: 20px;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            animation: bounce 1.5s infinite alternate;
+        }
+        .integrantes, .publicaciones {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            animation: slideUp 1.5s ease-in-out;
+        }
+        .integrante {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 3px solid #0288d1;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+            font-size: 18px;
+        }
+        .integrante:hover {
+            transform: scale(1.1);
+            background-color: #f0f8ff;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes bounce {
+            from { transform: translateY(0px); }
+            to { transform: translateY(10px); }
+        }
+    </style>
+</head>
+<body>
+    <header>GRUPO OMEGA</header>
+    
+    <section class="integrantes">
+        <h2>Integrantes</h2>
+        
+        <div class="integrante">
+            <h3>Anthony Andre Borda Portilla</h3>
+            <p>Carrera: Tecnología Médica con especialidad en terapia física y rehabilitación</p>
+            <p>Edad: 24 años</p>
+            <p>Mi proyecto a corto plazo es hacer el SERUMS y con el pasar del tiempo hacer una segunda especialidad en fisioterapia pediátrica.</p>
+        </div>
+        
+        <div class="integrante">
+            <h3>Quispe Quispe Aleja</h3>
+            <p>Carrera: Educación y primaria</p>
+            <p>Edad: 29 años</p>
+            <p>Elegí mi carrera por amor a los niños y para brindar una educación de calidad. En mis proyectos está terminar mi tesis y especialidad de Psicomotricidad.</p>
+        </div>
+        
+        <div class="integrante">
+            <h3>Villegas Cosio Anais Vivian</h3>
+            <p>Carrera: Ingeniería Civil</p>
+            <p>Edad: 24 años</p>
+            <p>Me di cuenta de que los ingenieros civiles juegan un papel fundamental en la creación de infraestructuras que conectan a las personas, facilitan el comercio y promueven el desarrollo económico.</p>
+        </div>
+        
+        <div class="integrante">
+            <h3>Pacori Durand Araina Arazelly</h3>
+            <p>Carrera: Ingeniería Civil</p>
+            <p>Edad: 24 años</p>
+            <p>Mi interés por la ingeniería civil surgió por el gusto por el diseño, la construcción y el impacto de la infraestructura en el desarrollo de las comunidades. Mi determinación y visión a futuro me impulsan a seguir creciendo en el campo, con la meta de tener mi propia constructora a nivel internacional.</p>
+        </div>
+    </section>
+    
+    <section class="publicaciones">
+        <h2>Publicaciones</h2>
+        
+        <div class="publicacion">
+            <h3>Muros Incas de la Ciudad del Cusco</h3>
+            <p>Los muros incas son una muestra impresionante de ingeniería y arquitectura. Construidos sin el uso de mortero, las piedras encajan perfectamente, lo que les da una gran resistencia a los sismos. Ejemplos icónicos incluyen el muro de la calle Hatun Rumiyoc y el de Sacsayhuamán.</p>
+        </div>
+        
+        <div class="publicacion">
+            <h3>Psicomotricidad fina en niños</h3>
+            <p>La psicomotricidad fina es clave en el desarrollo infantil. Implica la coordinación de músculos pequeños para actividades como escribir o abrochar botones. Estimularla a temprana edad ayuda a mejorar la destreza manual y la concentración.</p>
+        </div>
+        
+        <div class="publicacion">
+            <h3>Fracturas Deportivas</h3>
+            <p>Las fracturas deportivas ocurren por impactos fuertes o estrés repetitivo en huesos. Es fundamental la rehabilitación adecuada para evitar complicaciones. Entre las más comunes están las fracturas por estrés y de clavícula.</p>
+        </div>
+    </section>
+</body>
+</html>
